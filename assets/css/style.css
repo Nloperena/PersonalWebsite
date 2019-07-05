@@ -1,6 +1,6 @@
 body {
     
-    /* background-size: 100%; */
+    background-size: 100%;
     color: #1f1f1f;
     min-height: 100%;
     position: relative;
@@ -8,6 +8,8 @@ body {
     margin-top:90px;    
     font-family: 'Comfortaa', cursive;
     font-size:18px;
+    background-image: grey;
+    z-index: ;
 }
 
 
@@ -21,7 +23,7 @@ div .names{
     bottom: 0;
     min-width: 10%; 
     min-height: 10%;
-    z-index:-1;
+    z-index:-4;
   }
   #f1_container {
     position: relative;
@@ -76,9 +78,6 @@ div .names{
 }
 .material-icons {
    color: rgb(0, 100, 248);
-}
- {
-    background-color:grey;
 }
 #border-button {
     color:rgb(0, 235, 212)

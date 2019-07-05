@@ -22,20 +22,68 @@
 
     <!--Styling -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/javascript/app.js"></script>
+
 
 </head>
 
 <body>
-
+    <!-- video playing in the background -->
     <video autoplay muted loop id="myVideo">
         <source src="assets/video/Animation Of Stars.mp4" type="video/mp4">
     </video>
+
+    <!-- Centered Logo Image -->
     <div class="container">
-        <div class="row">
-            <div class="col 4">SAMPLE TEXT</div>
-            <div class="col 4"><img id = "headshot"src ="assets/images/cap.png"></div>
-            <div class="col 4">SAMPLE TEXT</div>
+        <div class="center-align">
+            <div class="row valign-wrapper">
+                <div class="col s4"></div>
+                <div class="col s2"><img id="headshot" src="assets/images/cap.png"></div>
+                <div class="col s4"></div>
+            </div>
+        </div>
+        <!-- Card I grabbed from Materialize -->
+        <div class="col s12 m8 offset-m2 l6 offset-l3">
+            <div class="card-panel blue lighten-5 z-depth-1">
+                <div class="row valign-wrapper">
+                    <div class="col s2">
+                        <img src="assets/images/headshot.jpg" alt="" class="circle responsive-img">
+                        <!-- notice the "circle" class -->
+                    </div>
+                    <div class="col s10">
+                        <span class="black-text">
+                            This is a square image. Add the "circle" class to it to make it appear circular.
+                        </span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <!-- LINE BREAK -->
     <br>
+    <!-- LINE BREAK -->
+
+    <!-- Full screen card -->
+    <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <div class="card-panel blue lighten-5 z-depth-1">
+            <div class="row valign-wrapper">
+                <div class="col s2">
+                    <img src="assets/images/cap.png" alt="" class="circle responsive-img">
+                    <!-- notice the "circle" class -->
+                </div>
+                <div class="col s10">
+                    <span class="black-text">
+                        This is a square image. Add the "circle" class to it to make it appear circular.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of second card -->
+</body>
+<!-- ------------------------------------------JAVASCRIPT-------------------------------- -->
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="assets/javascript/app.js"></script>
+
+</html>
