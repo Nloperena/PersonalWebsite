@@ -1,0 +1,102 @@
+body {
+    
+    /* background-size: 100%; */
+    color: #1f1f1f;
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 52px;
+    margin-top:90px;    
+    font-family: 'Comfortaa', cursive;
+    font-size:18px;
+}
+
+
+
+div .names{
+    font-size:20px;
+}
+#myVideo {
+    position: fixed ;
+    right: 0;
+    bottom: 0;
+    min-width: 10%; 
+    min-height: 10%;
+    z-index:-1;
+  }
+  #f1_container {
+    position: relative;
+    margin: 10px auto;
+    width: 450px;
+    height: 281px;
+    z-index: 1;
+    perspective: 1000;
+}
+.front.face {
+    padding: 0;
+}
+
+  .navStick {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    opacity: 0.9;
+    
+}
+.nav-wrapper{
+    color: rgb(0, 100, 248);
+}
+
+.social-media-div {
+    background-color: rgba(255, 192, 203, 0.555);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 52px;
+    margin-bottom: 0;
+}
+#introDiv {
+    background-color:whitesmoke;
+    opacity: 0.5;
+    border-radius: 100px;
+    padding: 2rem;
+    max-width: 100%
+}
+
+#secDiv {
+    background-color:whitesmoke;
+    opacity: 0.5;
+    border-radius: 100px;
+    padding: 2rem;
+    width: 50%;
+    float:left;
+    left:21.2rem;
+    position: relative;
+}
+.material-icons {
+   color: rgb(0, 100, 248);
+}
+ {
+    background-color:grey;
+}
+#border-button {
+    color:rgb(0, 235, 212)
+}
+
+#headshot{
+    width:17rem;
+    height:17rem;
+    top:2.5rem;
+    float:right;
+    position:relative;
+    border-radius:7rem;
+    opacity: 0.5;
+}
+
+#headshot2 {
+    width:17rem;
+    height:17rem;
+    border-radius:10rem;
+    opacity:0.5;
+}
