@@ -62,7 +62,7 @@ div .names{
 }
 nav .brand-logo {
     position: absolute;
-    color:black;
+    color:white;
     display: inline-block;
     font-size: 1.1rem;
     bottom: -1.5rem;
@@ -137,6 +137,8 @@ nav .brand-logo {
     position: relative;
     border-radius: 7rem;
     opacity: 0.8;
+    text-align:center;
+    
 }
 
 #headshot2 {
