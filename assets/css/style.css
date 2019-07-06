@@ -1,15 +1,18 @@
+html{
+    padding-top:-600px;}
+
 body {
     
     background-size: 100%;
-    color: #1f1f1f;
+    
     min-height: 100%;
     position: relative;
-    padding-bottom: 52px;
-    margin-top:90px;    
     font-family: 'Comfortaa', cursive;
-    font-size:18px;
-    background-image: grey;
-    z-index: ;
+    font-family: 'Maven Pro', sans-serif;
+    font-size:15px;
+    
+    
+    
 }
 
 
@@ -18,11 +21,11 @@ div .names{
     font-size:20px;
 }
 #myVideo {
-    position: fixed ;
+    position: absolute;
     right: 0;
     bottom: 0;
-    min-width: 10%; 
-    min-height: 10%;
+    min-width: 100%; 
+    min-height: 100%;
     z-index:-4;
   }
   #f1_container {
@@ -33,30 +36,71 @@ div .names{
     z-index: 1;
     perspective: 1000;
 }
+#buttonCircle{
+
+}
+.btn-floating.btn-large {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    bottom: 1.25rem;
+}
+
+
 .front.face {
     padding: 0;
 }
 
   .navStick {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
+    height:100%
     z-index: 1000;
     opacity: 0.9;
-    
+    height: 1.5rem;   
 }
-.nav-wrapper{
-    color: rgb(0, 100, 248);
+nav .brand-logo {
+    position: absolute;
+    color:black;
+    display: inline-block;
+    font-size: 1.1rem;
+    bottom: -1.5rem;
+}
+
+#navColor{
+    background-color: white;
+    text-color
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    width:100%
+}
+
+.social-media a {
+    color: inherit;
+}
+
+.social-media-logos,
+.heart-logo {
+    font-size: 1.25rem;
+    margin-left: 5px;
 }
 
 .social-media-div {
-    background-color: rgba(255, 192, 203, 0.555);
-    position: absolute;
+    background-color:rgb(114,139,111);
+    position: relative;
     left: 0;
     right: 0;
     bottom: 0;
-    height: 52px;
+    height: rem;
     margin-bottom: 0;
+}
+.heart-logo {
+    color: red;
+    margin-right: 5px;
 }
 #introDiv {
     background-color:whitesmoke;
@@ -77,20 +121,22 @@ div .names{
     position: relative;
 }
 .material-icons {
-   color: rgb(0, 100, 248);
+   color:rgb(114,139,111);
 }
 #border-button {
-    color:rgb(0, 235, 212)
+    color::rgb(114,139,111);
 }
 
-#headshot{
-    width:17rem;
-    height:17rem;
-    top:2.5rem;
-    float:right;
-    position:relative;
-    border-radius:7rem;
-    opacity: 0.5;
+#headshot {
+    margin-top: 17rem;
+    margin-bottom: 9rem;
+    width: 17rem;
+    height: 17rem;
+    top: -3.5rem;
+    float: left;
+    position: relative;
+    border-radius: 7rem;
+    opacity: 0.8;
 }
 
 #headshot2 {

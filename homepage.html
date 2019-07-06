@@ -27,17 +27,85 @@
 </head>
 
 <body>
+
+    <!-- __________________________NAVBAR___________________ -->
+
+    <!-- <nav class="navStick">
+        <div class="nav-wrapper #1e88e5" id= "navColor">
+            <div class="container">
+                    <a id = "buttonCircle" class="btn-floating btn-large waves-effect waves-light green pulse"><i id = "iconCircle" class="material-icons">email</i></a> -->
+    <!-- ______________________________________NAVBAR__________________________ -->
+    <header>
+    <nav class="navStick">
+
+        <!-- Navigation bar -->
+        <div class="nav-wrapper green">
+            <div class="container">
+                <a href="#" class="brand-logo">Nico</a>
+
+                <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                    <i class="material-icons">menu</i>
+                </a>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#contact-us">Contact</a></li>
+                    <!-- Modal Trigger -->
+
+                    <!-- <li>
+                    <a class="waves-effect waves-light btn modal-trigger #f8bbd0 pink lighten-4" href="#modal2">Login</a>
+                  </li> -->
+                    <li>
+                        <a class="waves-effect waves-light btn modal-trigger #f8bbd0 green lighten-4"" href=" #modal1"><i
+                                class="material-icons">email</i></a>
+                    </li>
+            </div>
+        </div>
+
+
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+            <div class="modal-content #e3f2fd blue lighten-5">
+                <h4 class=>Enter Info</h4>
+                <label class="pink lighten-4">Enter Human and Pet Information</label>
+                <input placeholder="Name" id="username-display" type="text" class="validate">
+                <!-- <input placeholder="Email" type="text" class="validate"> -->
+                <input placeholder="Pet Name" id="petname-display" type="text" class="validate">
+                <input placeholder="Pet Type" id="pettype-display" type="text" class="validate">
+                <a class="waves-effect waves-light btn-large favorite-button" id="form-submit-button"><i
+                        class="fas fa-heart"></i> Add info </a>
+            </div>
+        </div>
+        </li>
+        </ul>
+
+
+    </nav>
+</header>
+
+
     <!-- video playing in the background -->
     <video autoplay muted loop id="myVideo">
         <source src="assets/video/Animation Of Stars.mp4" type="video/mp4">
     </video>
 
+
+    <!-- <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                    <i class="material-icons">menu</i>
+                </a> -->
+
+
+    <!-- Modal Trigger -->
+
     <!-- Centered Logo Image -->
     <div class="container">
         <div class="center-align">
-            <div class="row valign-wrapper">
+            <div class="row valign-wrapper" id ="firstRow">
                 <div class="col s4"></div>
-                <div class="col s2"><img id="headshot" src="assets/images/cap.png"></div>
+                <div class="divider"></div>
+                <div class="col s4 waves"><img id="headshot" src="assets/images/cap.png"></div>
+                <div class="divider"></div>
                 <div class="col s4"></div>
             </div>
         </div>
@@ -51,7 +119,11 @@
                     </div>
                     <div class="col s10">
                         <span class="black-text">
-                            This is a square image. Add the "circle" class to it to make it appear circular.
+                            Howdy! Allow me to introduce myself. My name is Nicholas Loperena and I
+                            believe that computers allow us to truly unlock all the greatest mysteries
+                            in front of us, and allows us to expand our creativity to new heights.
+                            Welcome to my personal website. Here you will be able to find out more information about me,
+                            the work I've done, and contact me!
                         </span>
                     </div>
                 </div>
@@ -78,12 +150,37 @@
             </div>
         </div>
     </div>
+
+
+
     <!-- End of second card -->
+    <footer>
+        <!-- --------------------------------------COPYRIGHT-------------------------------- -->
+        <div class="row social-media-div">
+            <div class="col s12">
+                <div class="social-media">
+                    <p><i class="far fa-copyright"></i> Copyright by Nicholas Loperena, 2019</p>
+                    <p>Share the <i class="fas fa-heart heart-logo"></i> :
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=#url" target="_blank"><i
+                                class="fab fa-facebook-square social-media-logos"></i></a>
+                        <a
+                            href="http://twitter.com/share?text=text goes here&url=http://url goes here&hashtags=hashtag1,hashtag2,hashtag3"><i
+                                class="fab fa-twitter social-media-logos"></i></a>
+                        <a href="http://pinterest.com/pin/create/button/?url=/node/[nid]&description=[title]"><i
+                                class="fab fa-pinterest social-media-logos"></i></a>
+                        <a href="http://www.tumblr.com/share/link?url=[URL]&amp;name=[title]&amp;description=[content]"><i
+                                class="fab fa-tumblr social-media-logos"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ------------------------------------------JAVASCRIPT-------------------------------- -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+
 </body>
-<!-- ------------------------------------------JAVASCRIPT-------------------------------- -->
-<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script src="assets/javascript/app.js"></script>
 
 </html>
