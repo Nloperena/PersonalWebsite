@@ -15,11 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
     <!-- google fonts cdn -->
     <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
-    <!-- Slick Carousel CSS -->
-    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" /> -->
-
+   
+    <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
     <!--Styling -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -28,72 +25,33 @@
 
 <body>
 
-    <!-- __________________________NAVBAR___________________ -->
+    
 
-    <!-- <nav class="navStick">
-        <div class="nav-wrapper #1e88e5" id= "navColor">
-            <div class="container">
-                    <a id = "buttonCircle" class="btn-floating btn-large waves-effect waves-light green pulse"><i id = "iconCircle" class="material-icons">email</i></a> -->
-    <!-- ______________________________________NAVBAR__________________________ -->
-
-
-
-
-    <!-- Modal Structure -->
-    <div id="modal1" class="modal">
-        <div class="modal-content #e3f2fd blue lighten-5">
-
-
-
+    <nav class="navStick">
+        <div class="nav-wrapper green">
+          <a href="#" class="brand-logo center">Nicholas Loperena</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+           
+          </ul>
         </div>
-    </div>
-    </li>
-    </ul>
-    </nav>
+      </nav>
 
-
-    <!-- video playing in the background -->
-    <div class="videoContainer">
+    <div class="parallax-container">
+        <div class="videoContainer">
         <video autoplay muted loop id="myVideo">
             <source src="assets/video/Animation Of Stars.mp4" type="video/mp4">
         </video>
-    </div>
-
-
-    <div class="container  valign-wrapper">
+    <div class=" valign-wrapper"></div>
         <div class="row">
-            <div class="col s12 center-align imgRow"><img id="headshot" src="assets/images/cap.png"></div>
+            <div class="col s12  center-align imgRow"><img id="headshot2" src="assets/images/headshot.jpg"> </div>
+         
         </div>
     </div>
-    <div class="container dividingDiv">
-        <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sequi natus quibusdam quam
-            possimus obcaecati voluptatem perferendis vel commodi sed at rerum mollitia eum voluptas, perspiciatis quo
-            modi atque molestias.</p>
-    </div>
+</div>
 
 
 
-    <!-- Card I grabbed from Materialize -->
-
-    <div class="col s12 m8 offset-m2 l6 offset-l3">
-        <div class="card-panel blue lighten-5 z-depth-1">
-            <div class="row valign-wrapper">
-                <div class="col s2">
-                    <img src="assets/images/headshot.jpg" alt="" class="circle responsive-img">
-                    <!-- notice the "circle" class -->
-                </div>
-                <div class="col s10">
-                    <span class="black-text">
-                        Howdy! Allow me to introduce myself. My name is Nicholas Loperena and I
-                        believe that computers allow us to truly unlock all the greatest mysteries
-                        in front of us, and allows us to expand our creativity to new heights.
-                        Welcome to my personal website. Here you will be able to find out more information about me,
-                        the work I've done, and contact me!
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
+ 
 
     </div>
     <!-- LINE BREAK -->
@@ -106,7 +64,7 @@
     <!-- Full screen card -->
     <div class="container">
         <div class="col s12 m8 offset-m2 l6 offset-l3">
-            <div class="card-panel blue lighten-5 z-depth-1">
+            <div class="card-panel green lighten-2 z-depth-5">
                 <div class="row valign-wrapper">
                     <div class="col s2">
                         <img src="assets/images/cap.png" alt="" class="circle responsive-img">
@@ -127,30 +85,43 @@
     </div>
 
 
-
-    <!-- _________________________________TESTDIV____________________ -->
-    <div class="container valign-wrapper">
+    <!-- ___________________________COLLAPSABLE________________________ -->
+    <div class="container" id="collapseContainer">
         <div class="row">
-            <div class="col s4 center-align">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic corporis modi delectus enim nihil
-                reiciendis ex officiis officia, voluptas, labore odio ratione consectetur similique quibusdam optio.
-                Velit totam ut labore?
-            </div>
-            <div class="col s4 center-align">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic corporis modi delectus enim nihil
-                reiciendis ex officiis officia, voluptas, labore odio ratione consectetur similique quibusdam optio.
-                Velit totam ut labore?
-            </div>
-            <div class="col s4 center-align">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic corporis modi delectus enim nihil
-                reiciendis ex officiis officia, voluptas, labore odio ratione consectetur similique quibusdam optio.
-                Velit totam ut labore?
+            <div class="col-2">
+                <ul class="collapsible" id="worksCollapse">
+                    <li>
+                        <div class="collapsible-header green lighten-2 z-depth-1" id="collapseContainer"><i
+                                class="material-icons">account_box</i>Biography</div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Vel et cumque voluptatum earum? Perspiciatis eius ratione
+                                corrupti nulla ipsum excepturi maxime tenetur deserunt, libero, maiores vel sit sapiente
+                                doloremque hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+                                doloribus ex esse fugiat, velit labore a nulla voluptatum, ipsum sed voluptas iusto
+                                quam, debitis voluptates necessitatibus commodi sapiente dolor magnam?Lorem ipsum dolor
+                                sit amet consectetur, adipisicing elit. Quam totam quod soluta fugit recusandae
+                                voluptas, officiis repellat sapiente ipsam, cumque excepturi? Voluptates dolores quaerat
+                                praesentium voluptatum quis itaque dignissimos repellendus.</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header green lighten-2 z-depth-1" id="collapseContainer"><i
+                                class="material-icons">work</i>Check out what I have done.
+                        </div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span><img
+                                src="assets/images/engineer.jpg"></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header green lighten-2 z-depth-1" id="collapseContainer"><i
+                                class="material-icons">email</i>Contact me!
+                        </div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                </ul>
             </div>
         </div>
+
     </div>
 
-
-    <!-- End of second card -->
     <footer>
         <!-- --------------------------------------COPYRIGHT-------------------------------- -->
         <div class="row social-media-div">

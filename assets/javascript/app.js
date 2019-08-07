@@ -1,22 +1,25 @@
-
-
 // document.addEventListener('DOMContentLoaded', function() {
 //     var elems = document.querySelectorAll('.collapsible');
 //     var instances = M.Collapsible.init(elems, options);
 //   });
 
-
-
-  $(document).ready(function(){
-    $('.parallax').parallax();
-  });
-
-  $(document).ready(function(){
+$(document).ready(function () {
   console.log("READY!")
-  })
+})
 
-  // When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
+$(document).ready(function () {
+  $('.parallax').parallax();
+});
+
+
+$(document).ready(function () {
+  $('.collapsible').collapsible();
+});
+
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function () {
+  myFunction()
+};
 
 // Get the navbar
 var navbar = document.getElementById("navbar");
@@ -32,5 +35,3 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
-  
-  
